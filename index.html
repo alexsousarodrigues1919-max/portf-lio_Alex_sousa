@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="description" content="Alex Sousa - Desenvolvedor Full Stack especializado em React, Node.js e desenvolvimento web moderno" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Alex Sousa - Desenvolvedor Full Stack</title>
+  </head>
+  <body>
+    <!-- Estrelas cadentes animadas -->
+    <div class="estrela" style="left: 20%; animation-delay: 0s"></div>
+    <div class="estrela" style="left: 60%; animation-delay: 2s"></div>
+    <div class="estrela" style="left: 80%; animation-delay: 4s"></div>
+
+    <!-- Header fixo com menu responsivo -->
+    <header class="cabecalho">
+      <h1>Alex Sousa</h1>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu" id="menu">
+        <ul>
+          <li><a href="#inicio" class="menu-link">Início</a></li>
+          <li><a href="#sobre" class="menu-link">Sobre</a></li>
+          <li><a href="#projetos" class="menu-link">Projetos</a></li>
+          <li><a href="#habilidade" class="menu-link">Habilidades</a></li>
+          <li><a href="#contato" class="menu-link">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Seção principal -->
+    <section class="principal" id="inicio">
+      <div class="principal-container">
+        <div class="principal-texto">
+          <h2>Desenvolvedor Full Stack</h2>
+          <p>
+            Sou <strong>Alex Sousa</strong>, desenvolvedor full stack em transição de carreira, 
+            especializado em desenvolvimento web e mobile. Experiência com <strong>HTML, CSS, JavaScript, React</strong> 
+            no frontend e <strong>Node.js, Express, SQLite3</strong> no backend.
+          </p>
+          <a href="#contato" class="botao">Entre em contato</a>
+        </div>
+
+        <div class="principal-imagem">
+          <img src="sousa.jpeg" alt="Alex Sousa - Desenvolvedor Full Stack" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p>
+          Sou desenvolvedor full stack em transição de carreira, com foco em desenvolvimento web e mobile. 
+          Possuo experiência com <strong>frontend</strong> (HTML, CSS, JavaScript, React) e <strong>backend</strong> 
+          (Node.js, Express, SQLite3, Cors).
+        </p>
+        <p>
+          Crio sites para lojas virtuais, sites corporativos e sistemas web completos. Já desenvolvi diversos 
+          projetos durante minha formação em desenvolvimento full stack, incluindo sites práticos e sistemas 
+          web integrados com frontend e backend.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="projetos" id="projetos">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+        <div class="projetos-grid">
+          <a href="https://alexsousarodrigues1919-max.github.io/Pizza/" target="_blank" rel="noopener noreferrer" class="projeto-card">
+            <img src="pizzaria.png" alt="Projeto Pizzaria" loading="lazy" />
+            <div class="projeto-overlay">
+              <h3>Pizzaria</h3>
+              <p>Site responsivo para pizzaria</p>
+            </div>
+          </a>
+          
+          <!-- Adicione mais projetos aqui -->
+          <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="projeto-card">
+            <img src="projeto2.png" alt="Projeto 2" loading="lazy" />
+            <div class="projeto-overlay">
+              <h3>Projeto 2</h3>
+              <p>Descrição do projeto</p>
+            </div>
+          </a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="habilidades" id="habilidade">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="habilidades-grid">
+          <div class="habilidade-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6iwNIlkTBGLI5JeG4rR7JcSWj8Z01zs8qEQ&s"
+              alt="HTML"
+              loading="lazy"
+            />
+            <h3>HTML</h3>
+            <p>Estruturação semântica e acessível</p>
+          </div>
+
+          <div class="habilidade-card">
+            <img
+              src="https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials-2.jpg"
+              alt="CSS"
+              loading="lazy"
+            />
+            <h3>CSS</h3>
+            <p>Estilização moderna e responsiva</p>
+          </div>
+
+          <div class="habilidade-card">
+            <img
+              src="https://www.datocms-assets.com/48401/1628644950-javascript.png"
+              alt="JavaScript"
+              loading="lazy"
+            />
+            <h3>JavaScript</h3>
+            <p>Desenvolvimento interativo e dinâmico</p>
+          </div>
+
+          <div class="habilidade-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHvOOj482m4daUD8V8Da_kRr8_HKtXkumJKA&s"
+              alt="React"
+              loading="lazy"
+            />
+            <h3>React</h3>
+            <p>Interfaces modernas e reativas</p>
+          </div>
+
+          <div class="habilidade-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPSIfs4kq0BZM-e2zPf-YF2ms0x9Q3RiS6g&s"
+              alt="Node.js"
+              loading="lazy"
+            />
+            <h3>Node.js</h3>
+            <p>Backend escalável e eficiente</p>
+          </div>
+
+          <div class="habilidade-card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/500px-SQLite370.svg.png"
+              alt="SQLite3"
+              loading="lazy"
+            />
+            <h3>SQLite3</h3>
+            <p>Banco de dados leve e rápido</p>
+          </div>
+
+          <div class="habilidade-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-thtyl7bH5ixwKgivRU86Xf-s-p6s8h_zA&s"
+              alt="GitHub"
+              loading="lazy"
+            />
+            <h3>GitHub</h3>
+            <p>Versionamento e colaboração</p>
+          </div>
+
+          <div class="habilidade-card">
+            <img
+              src="https://chisellabs.com/glossary/wp-content/uploads/2021/06/What-is-an-API.png"
+              alt="API"
+              loading="lazy"
+            />
+            <h3>API REST</h3>
+            <p>Integração e desenvolvimento de APIs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato" id="contato">
+      <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="contato-subtitle">Vamos conversar sobre seu próximo projeto?</p>
+        <form id="form-contato" class="contato-form">
+          <input 
+            type="text" 
+            id="nome" 
+            name="nome" 
+            placeholder="Seu nome" 
+            required 
+            autocomplete="name"
+          />
+          <textarea 
+            id="mensagem" 
+            name="mensagem" 
+            placeholder="Sua mensagem" 
+            rows="5" 
+            required
+          ></textarea>
+          <button type="submit" class="btn-enviar">
+            <span>Enviar via WhatsApp</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="rodape">
+      <p>&copy; 2024 Alex Sousa. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Canvas para partículas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
