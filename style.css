@@ -23,36 +23,9 @@ html {
   font-size: 16px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    color: var(--gray-900);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-/* ============================================
-   BACKGROUND ANIMADO
-   ============================================ */
-body {
-    background-image: url("https://img.freepik.com/premium-photo/man-sits-front-computer-with-words-test-screen_978914-24282.jpg?semt=ais_hybrid&w=740&q=80");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    padding: 20px;
-    position: relative;
-    overflow-x: hidden;
-}
-
-body {
-  
+  background: #000000;
   position: relative;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
